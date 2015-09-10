@@ -1,0 +1,37 @@
+<scene export_time="1423612130.5580258" formatVersion="1.0.1" previous_export_time="1423502322.4057236" exported_by="emmanuelsantana" >
+  <nodes >
+    <node name="Armature" >
+      <position x="0.000000" z="-0.000000" y="3.135483" />
+      <rotation qy="0.000000" qz="-0.000000" qx="0.000000" qw="1.000000" />
+      <scale x="1.000000" z="1.000000" y="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+    </node>
+    <node name="Mesh" >
+      <position x="0.000000" z="-0.000000" y="3.300000" />
+      <rotation qy="0.000000" qz="-0.000000" qx="0.000000" qw="1.000000" />
+      <scale x="0.400000" z="0.400000" y="0.400000" />
+      <user_data type="IDPropertyGroup" name="cycles_visibility" value='&lt;bpy id prop: owner="OBMesh", name="cycles_visibility", address=0x7f9e355177a8&gt;' />
+      <user_data type="IDPropertyGroup" name="cycles" value='&lt;bpy id prop: owner="OBMesh", name="cycles", address=0x7f9e35517708&gt;' />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity mass="1.0" anisotropic_friction="False" name="Mesh" damping_trans="0.03999999910593033" lock_trans_x="False" friction_x="1.0" lock_trans_z="False" ghost="False" lock_rot_y="False" friction_y="1.0" friction_z="1.0" mass_radius="1.0" damping_rot="0.10000000149011612" meshFile="Mesh.mesh" lock_rot_z="False" lock_trans_y="False" physics_type="STATIC" velocity_min="0.0" velocity_max="0.0" actor="False" lock_rot_x="False" inertia_tensor="0.4000000059604645" >
+        <user_data type="IDPropertyGroup" name="cycles" value='&lt;bpy id prop: owner="MEMesh", name="cycles", address=0x7f9e35517488&gt;' />
+      </entity>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="/home/emmanuelsantana/Desarrollo/Proyectos/Blender/Body/Export/Material.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourBackground g="0.05087608844041824" b="0.05087608844041824" r="0.05087608844041824" />
+    <colourAmbient g="0.0" b="0.0" r="0.0" />
+    <colourDiffuse g="0.05087608844041824" b="0.05087608844041824" r="0.05087608844041824" />
+  </environment>
+</scene>
